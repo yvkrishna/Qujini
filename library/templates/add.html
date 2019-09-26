@@ -18,6 +18,11 @@
             <input type="submit">
         </form>
 
+        {% block content %}
+
+        <p>data: <br>book data: {{book_data}}<br>author data : {{author_data}} </p>
+
+        {% endblock %}
         
 </body>
 </html>
